@@ -1,3 +1,5 @@
+local bit = require("bit")
+
 callbacks.register("post_move", function(cmd)
     if not client.is_alive() then return end
 
